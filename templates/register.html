@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register Student</title>
+</head>
+<body>
+<form action="/registerpython" method="POST">
+    {% csrf_token %}
+    <input type="text" placeholder="Enter name" name="name">
+    <input type="text" placeholder="Enter Email" name="email">
+    <input type="number" placeholder="Enter ID Number" name="idnum">
+    <input type="Submit" value="Register">
+
+
+</form>
+
+</body>
+</html>
